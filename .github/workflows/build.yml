@@ -35,7 +35,7 @@ jobs:
           path: SadeEv.apk
 
       # TV'deki Downloader uygulamasıyla tek adresten indirilebilsin diye
-      - name: "latest" sürümüne yükle
+      - name: Latest sürümüne yükle
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
